@@ -1,0 +1,177 @@
+    1  htop
+    2  sudo apt install htop
+    3  htop
+    4  cd hom
+    5  dir
+    6  cd Downloads/
+    7  ls
+    8  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    9  sudo apt -f install
+   10  ps aux | grep chrome
+   11  kill -9 13854
+   12  kill -9 16783
+   13  ps aux | grep chrome
+   14  sudo apt install ./code_1.92.1-1723066302_amd64.deb 
+   15  sudo apt update
+   16  sudo apt install nodejs
+   17  node -v
+   18  npm --version
+   19  node -v
+   20  node -version
+   21  node --version
+   22  history
+   23  pwd
+   24  cd cohort/
+   25  ls
+   26  cd WebDev/
+   27  cd ..
+   28  mv DevOps/ devops
+   29  mv Web3 web3
+   30  mv WebDev/ webdev
+   31  ls
+   32  clr
+   33  clear
+   34  cd webdev/
+   35  ls
+   36  mkdir linu
+   37  mv linu/ linux
+   38  ls
+   39  cd linux/
+   40  cat >> a1.tx
+   41  ls
+   42  cat a1.tx 
+   43  mv a1.tx a1.txt
+   44  cat a1.txt 
+   45  cat > a1.txt 
+   46  cat a1.txt 
+   47  cat >> a1.txt 
+   48  cat a1.txt 
+   49  ls -l
+   50  mkdir test && cd test
+   51  cd ..
+   52  mkdir
+   53  mkdir --help
+   54  sn;s
+   55  ls
+   56  cls
+   57  clear
+   58  cls
+   59  mkdir
+   60  ls
+   61  dir
+   62  ls
+   63  cd cohort/
+   64  cd webdev/
+   65  ls
+   66  mkdir week2
+   67  mv week2-js/ week2
+   68  mv linux/ week2/
+   69  ls
+   70  cd week2/
+   71  ls
+   72  cd linux/
+   73  ls
+   74  ls -l
+   75  touch a1.sh
+   76  ls -l
+   77  ./a1.sh
+   78  vim a1.sh
+   79  vi a1.sh
+   80  cat a1.sh
+   81  ./a1.sh
+   82  ls -l
+   83  chmod 764 a1.sh
+   84  ls -l
+   85  ./a1.sh 
+   86  echo $PATH
+   87  touch head.txt
+   88  cat > head.txt 
+   89  head head.txt 
+   90  tail head.txt 
+   91  history
+   92  cd cohort/
+   93  cd web
+   94  cd webdev/
+   95  cd week2/
+   96  cd linux/
+   97  ls
+   98  cat head.txt 
+   99  tail -n +10 head.txt | head -n +5 head.txt 
+  100  tail -n +10 head.txt | head
+  101  tail -n +10 head.txt | head -5
+  102  cls
+  103  ls
+  104  wc head.txt 
+  105  grep 8 head.txt | wc
+  106  grep 8 head.txt 
+  107  grep 8 head.txt | wc -l
+  108  grep -c "8" head.txt 
+  109  grep -h "8" head.txt 
+  110  cat >> head.txt 
+  111  grep -h "eight" head.txt 
+  112  grep -hi "eight" head.txt 
+  113  grep -hin "eight" head.txt 
+  114  grep -in "eight" head.txt 
+  115  grep -hin "eight" head.txt 
+  116  grep
+  117  grep --help
+  118  grep -hin "eight" head.txt 
+  119  grep -hinw "eight" head.txt 
+  120  grep -hino "eight" head.txt 
+  121  history
+  122  node -v
+  123  curl
+  124  node -v
+  125  npm -v
+  126  history
+  127  sed
+  128  awk
+  129  touch log.txt
+  130  cat > log.txt 
+  131  grep "ERROR" log.txt 
+  132  grep -v "info" log.txt 
+  133  grep -vi "info" log.txt 
+  134  grep -A "ERROR" log.txt 
+  135  grep -A 4 "ERROR" log.txt 
+  136  grep -AB 4 "ERROR" log.txt 
+  137  grep -B 4 "ERROR" log.txt 
+  138  sed -n "ERROR/ P" log.txt 
+  139  sed -n 'ERROR/ P' log.txt 
+  140  sed
+  141  cls
+  142  cat log.txt 
+  143  sed -n 'ERROR' log.txt 
+  144  sed -n 'ERROR/ p' log.txt 
+  145  sed -s 'ERROR/CRITICAL' log.txt 
+  146  sed  's/ERROR/CRITICAL' log.txt 
+  147  history
+  148  touch commands.txt
+  149  history >> commands.txt 
+  150  clear
+  151  cat commands.txt 
+  152  cls
+  153  clear
+  154  sed  '1/ERROR/CRITICAL' log.txt 
+  155  sed  '1 s/ERROR/CRITICAL' log.txt 
+  156  cat log.txt 
+  157  sed  '3 s/ERROR/CRITICAL' log.txt 
+  158  sed '3 s/ERROR/CRITICAL' log.txt
+  159  sed '3 s/ERROR/CRITICAL/' log.txt
+  160  sed '1,3 s/ERROR/CRITICAL/' log.txt
+  161  history > log.txt 
+  162  cat log.txt 
+  163  sed -n 'CRITICAL/ p' log.txt 
+  164  cat log.txt 
+  165  ls
+  166  history > commands.txt 
+  167  cat > log.txt 
+  168  cat log.txt 
+  169  sed -n '1,/ERROR/ p' log.txt 
+  170  sed -n '/ERROR/ p' log.txt 
+  171  history > commands.txt 
+  172  awk '{gsub(/ERROR/, "CRITICAL")} {PRINT}' log.txt 
+  173  cat log.txt 
+  174  awk '{gsub(/ERROR/, "CRITICAL")} {PRINT}' log.txt 
+  175  cat log.txt 
+  176  awk 'BEGIN{print "Log Summary\n----------"}{print} END {print"----------\nEND OF LOG SUMMARY"}' log.txt
+  177  history > commands.txt 

@@ -1,0 +1,21 @@
+link : https://projects.100xdevs.com/tracks/promises-async-await/Promises-and-async--await-5
+
+Introduced how to create a class and use it --(this,new) keywords
+we used some js provided classes (Map,Date)
+'Promise' class 
+
+Promise class gives u a promise that I will return some thing in the future.
+
+setTimeout(fn,3000); //calls fn after 3000
+
+//callback based approach (asysnc)
+
+like Using a Date class is easy but declaring is difficult.
+
+//defining is hard
+//using  is difficult
+
+//real world usage of promises.
+
+typescript 
+
