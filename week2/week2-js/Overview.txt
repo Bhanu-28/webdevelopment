@@ -19,3 +19,29 @@ like Using a Date class is easy but declaring is difficult.
 
 typescript 
 
+ASYNC JS
+
+https://projects.100xdevs.com/tracks/async-js-1/Asynchronous-Javascript--Callbacks-and-more-2
+I/O Heavy operations
+defining 
+
+Ex: Reading a file
+    start a clock
+    HTTP Requests 
+
+Import and Require 
+
+CPU TASK CPU BOUND TASKS.
+
+Ex: For loop
+
+Real Life use case 
+
+    Boil water 
+    laundry 
+    shop 
+
+    context switch between them.
+//Functional arguments 
+
++passing an function as an argument to another function

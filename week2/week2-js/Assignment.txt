@@ -1,1 +1,8 @@
 write promise class yourself.
+
+//try to create promisified version of 
+
+    setTimeout 
+     fetch 
+    fs.ReadFile
+         
