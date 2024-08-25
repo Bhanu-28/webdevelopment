@@ -1,0 +1,10 @@
+Node js is open source js run time that allows you to execute js code on the server
+side its built on chrome v8 javascript engine.
+
+ECMA SCRIPT
+
+all implements this
+
+Node Js // Js run time uses the V8 Engine.
+
+Bun //(ZIG) That is competing with Node Js 
